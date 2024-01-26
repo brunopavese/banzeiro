@@ -7,7 +7,7 @@ Este repositório contém a proposta de website para um restaurante, desenvolvid
 ## Proposta
 
 Nossa proposta de desenvolvimento para o projeto, foi a construção do website para um restaurante de culinária amazonense.
-Para isso escolhemos pratos, cores, imagens e textos que entreguem a nossa proposta como foi pensada.
+Para isso escolhemos pratos, cores, imagens e textos que entreguem a nossa proposta como foi pensada. O nome escolhido para o nosso restaurante foi Banzeiro.
 
 ## Desafio técnico
 
