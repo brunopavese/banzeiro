@@ -17,6 +17,7 @@
   line-height: 100%;
   color: var(--color-text-white);
   text-align: center;
+  text-shadow: var(--text-shadow);
 }
 
 #banner-top .call-to-action {
