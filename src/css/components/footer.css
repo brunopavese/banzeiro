@@ -42,6 +42,10 @@ footer .address {
   flex-direction: column;
 }
 
+footer span {
+  color: var(--color-secondary);
+}
+
 .social-media img {
   width: 40px;
   padding: 0 5px;
@@ -52,10 +56,40 @@ footer .rights {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;1
+  justify-content: center;
 }
 
 .rights img {
   width: 25px;
   margin: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  
+  footer .align {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+  }
+
+  footer section {
+    width: 100%;
+  }
+
+  .social-media img {
+    width: 60px;
+  }
+
+  footer .rights {
+    font-size: 1rem;
+  }
+  footer .photo {
+    border-radius: 50%;
+    width: 80px;
+  }
+
+  footer p {
+    line-height: 2.2;
+  }
+}
+
