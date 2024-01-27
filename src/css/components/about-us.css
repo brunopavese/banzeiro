@@ -1,0 +1,19 @@
+#about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-us div{
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  box-shadow: 5px 5px 20px #000;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+#about-us p {
+  margin: 20px 0;
+}
