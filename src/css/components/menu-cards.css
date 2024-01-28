@@ -1,59 +1,94 @@
 .card-container {
   background-color: var(--color-background);
-  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   padding: 20px;
+  margin: 15px 0;
   width: 100%;
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #menu {
+  /* background-color: var(--color-primary); */
+  background-image: url(/src/assets/background-footer.svg);
+  margin-bottom: 1px;
+}
+
+#menu h2 {
+  color: var(--color-text-white);
+  text-shadow: var(--text-shadow);
+  text-align: center;
+  padding: 15px;
+}
+
+#menu h3 {
+  padding: 10px;
+}
+
+#menu figcaption {
+  text-align: center;
+}
+
+.entree img {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
-#menu div {
-  display: flex;
-  flex-direction: column;
+.savory {
+  background-color: var(-color-background);
+}
+
+.savory-food img {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
   width: 100%;
 }
 
-#menu img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
+.desserts img {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  width: 100%;
 }
 
-#entree img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-}
-
-#desserts img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-}
-
-.savory-food {
-  background-color: var(--color-primary);
-
-}
-
-.desserts {
-  background-color: var(--color-primary);  
-}
-
-.entree {
-  background-color: var(--color-primary);  
+.beverages img {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
+  
+  .card-container {
+    max-width: 300px;
+    margin: 15px 5px;
+    padding: 15px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #menu .align-cards {
+    margin-bottom: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   #menu>div {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .entree img,
+  .savory-food img,
+  .desserts img,
+  .beverages img {
+    max-width: 100%;
+  }
+
 }
