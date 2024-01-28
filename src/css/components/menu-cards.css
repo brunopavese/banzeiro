@@ -1,0 +1,59 @@
+.card-container {
+  background-color: var(--color-background);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#menu img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+#entree img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+#desserts img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.savory-food {
+  background-color: var(--color-primary);
+
+}
+
+.desserts {
+  background-color: var(--color-primary);  
+}
+
+.entree {
+  background-color: var(--color-primary);  
+}
+
+@media screen and (min-width: 768px) {
+  #menu>div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
