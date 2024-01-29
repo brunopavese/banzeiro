@@ -1,3 +1,4 @@
+@media screen and (min-width: 768px) {
 #sign-in {
     background-color: #f2b02f;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -39,4 +40,18 @@
 
 #sign-in input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #387b3d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 }
