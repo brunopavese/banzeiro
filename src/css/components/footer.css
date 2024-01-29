@@ -10,7 +10,7 @@ footer h2 {
   justify-content: center;
 }
 
-figure img {
+footer figure img {
   width: 20px;
 }
 
@@ -68,18 +68,25 @@ footer .rights {
   
   footer .align {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-evenly;
   }
-
+  
+  footer figure {
+    border: 1px solid var(--color-secondary);
+    display: flex;
+    justify-content: start;  
+    padding-left: 27%;
+  }
+  
   footer section {
     width: 100%;
   }
-
+  
   .social-media img {
     width: 60px;
   }
-
+  
   footer .rights {
     font-size: 1rem;
   }
@@ -87,7 +94,7 @@ footer .rights {
     border-radius: 50%;
     width: 80px;
   }
-
+  
   footer p {
     line-height: 2.2;
   }

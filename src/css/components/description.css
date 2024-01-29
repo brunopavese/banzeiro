@@ -1,0 +1,48 @@
+#description {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+#description strong {
+  font-weight: 600;
+  color: var(--color-primary)  
+}
+
+#description p {
+  max-width: 40rem;
+}
+
+#description div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #description {
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    margin: 5rem 0;
+  }
+
+  #description div {
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: flex-end;
+    margin: 0;
+  }
+  
+  #description div img {
+    width: 3rem;
+  }
+
+  #description div img:first-child {
+    align-self: flex-start;
+  }
+}
