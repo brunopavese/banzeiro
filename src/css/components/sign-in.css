@@ -33,7 +33,7 @@
 }
 
 #sign-in input {
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-background);
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
@@ -57,8 +57,8 @@
     justify-content: center;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #387b3d;
-    color: #fff;
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
     border: none;
     border-radius: 5px;
     cursor: pointer;
