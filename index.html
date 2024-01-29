@@ -258,15 +258,15 @@
     <section id="sign-in">
       <div>
         <h2>Cadastre-se</h2>
-        <form action="#">
+        <form action="http://localhost:3000/registrations" method="post">
           <label for="name">Nome: </label>
-          <input type="text" id="name" name="name">
+          <input type="text" id="name" name="name" required>
 
           <label for="email">E-mail: </label>
-          <input type="email" id="email" name="email">
+          <input type="email" id="email" name="email" required>
 
           <label for="password">Senha: </label>
-          <input type="password" id="password" name="password">
+          <input type="password" id="password" name="password" required minlength="6">
 
           <button>Inscreva-se</button>
 
