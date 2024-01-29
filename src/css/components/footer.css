@@ -10,6 +10,15 @@ footer h2 {
   justify-content: center;
 }
 
+footer figure {
+  border: 1px solid var(--color-secondary);
+  border-radius: .625rem;
+  margin: .625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer figure img {
   width: 1.25rem;
 }
@@ -20,17 +29,7 @@ footer .photo {
   width: 3.75rem;
 }
 
-footer figure {
-  border: 1px solid var(--color-secondary);
-  border-radius: .625rem;
-  margin: .625rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-figure a {
+footer figure a {
   margin-right: .313rem;
 }
 
@@ -59,7 +58,7 @@ footer .rights {
   justify-content: center;
 }
 
-.rights img {
+footer .rights img {
   width: 1.563rem;
   margin: .625rem;
 }
@@ -72,15 +71,15 @@ footer .rights {
     justify-content: space-evenly;
   }
   
+  footer section {
+    width: 100%;
+  }
+  
   footer figure {
     border: 1px solid var(--color-secondary);
     padding-left: 27%;
     display: flex;
     justify-content: start;  
-  }
-  
-  footer section {
-    width: 100%;
   }
   
   .social-media img {
