@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banzeiro</title>
-  
+
   <link rel="stylesheet" href="styles.css">
-  
+
   <link rel="shortcut icon" href="/src/assets/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/src/assets/favicon.ico" type="image/x-icon">
 </head>
@@ -36,56 +36,135 @@
       </ul>
     </nav>
   </header>
-  
+
   <main>
     <section id="banner-top">
       <h1>Banzeiro, Culinária Amazônica de alto padrão desde 1982</h1>
-      <p>
-        Cozinhamos com amor, inspirados na diversidade do Norte.
-        Nossas receitas são feitas diariamente com os produtos colhidos da terra, peixes e camarões recém pescados para
-        trazer toda as leveza com alimentos frescos.
-      </p>
-      <button>
-        <a href="#sign-in">Botão do form</a>
-      </button>
+      <a href="#sign-in">
+        <button class="call-to-action">
+          Garanta sua oferta especial!
+        </button>
+      </a>
     </section>
-    
+
     <section id="description">
-      <div>Algum descritivo</div>
-      <div>Algo complementar</div>
+      <div>
+        <img src="/src/assets/icons/fish.svg" alt="vetor de um peixe">
+        <img src="/src/assets/icons/heart.svg" alt="vetor de coração">
+      </div>
+      <p>
+        Cozinhamos com <strong>amor</strong>, inspirados na diversidade do Norte.
+        Nossas receitas são feitas diariamente com os produtos colhidos da terra, <strong>peixes</strong> e camarões
+        recém pescados para
+        trazer toda a leveza dos alimentos frescos.
+      </p>
     </section>
-    
+
     <section id="menu">
-      <h2>À la carte</h2>
-      <article class="card-container">
-        <figure>
-          <img class="food-img" src="" alt="">
-          <figcaption>
-            <h3>Comida</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, alias?</p>
-          </figcaption>
-        </figure>
-      </article>
+      <h2>Entradas</h2>
+      <div class="align-cards">
+        <article class="card-container entree">
+          <figure>
+            <img class="food-img" src="/src/assets/bolinho-pirarucu.png" alt="Bolinho de Pirarucu">
+            <figcaption>
+              <h3>Bolinho de Pirarucu</h3>
+              <p>Massa de mandioca com recheio de pirarucu fresco temperado, acompanhado da nossa deliciosa pimenta
+                murupi.</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
     </section>
-    
-    <section id="dessert-menu">
-      <h2>Sobremesas</h2>       
-      <article class="card-container">
-        <figure>
-          <img class="food-img" src="" alt="Sorvete de Tucumã">
-          <figcaption>
-            <h3>Sorvete de Tucumã</h3>
-            <p>Sorvete produzido na casa com a polpa do fruto preferido dos nortistas.</p>
-          </figcaption>
-        </figure>
-      </article>
+
+    <section id="menu">
+      <h2>Pratos Principais</h2>
+      <div class="align-cards">
+        <article class="card-container savory-food">
+          <figure>
+            <img class="food-img" src="/src/assets/tacaca.jpg" alt="Tacaca">
+            <figcaption>
+              <h3>Tacacá</h3>
+              <p>Caldo de tucupi, goma de tapioca, camarão seco e jambu.<br /><br /></p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="card-container savory-food">
+          <figure>
+            <img class="food-img" src="/src/assets/caldeirada.jpg" alt="Caldeirada de Tambaqui">
+            <figcaption>
+              <h3>Caldeirada de Tambaqui</h3>
+              <p>Caldo bem perfumado à base de ervas típicas, costela de tambaqui cozida e jambu.</p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="card-container savory-food">
+          <figure>
+            <img class="food-img" src="/src/assets/tambaqui_assado.jpg" alt="Tambaqui Assado">
+            <figcaption>
+              <h3>Tambaqui Assado</h3>
+              <p>Tambaqui assado na brasa, acompanhado de baião com queijo coalho e farinha de uairini.</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
     </section>
-    
+
+    <section id="menu">
+      <h2>Sobremesas</h2>
+      <div class="align-cards">
+        <article class="card-container desserts">
+          <figure>
+            <img class="food-img" src="/src/assets/sorvete.jpg" alt="Sorvete de Tucumã">
+            <figcaption>
+              <h3>Sorvete de Tucumã</h3>
+              <p>Sorvete produzido na casa com a polpa do fruto preferido dos nortistas.<br /><br /></p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="card-container desserts">
+          <figure>
+            <img class="food-img" src="/src/assets/mousse_cupuacu.jpg" alt="Mousse de Cupuaçu">
+            <figcaption>
+              <h3>Mousse de Cupuaçu</h3>
+              <p>Um cremosíssimo creme de cupuaçu produzido na casa.<br /><br /></p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Bebidas</h2>
+      <div class="align-cards">
+        <article class="card-container beverages">
+          <figure>
+            <img class="food-img" src="/src/assets/cachaca.jpg" alt="Baré">
+            <figcaption>
+              <h3>Baré</h3>
+              <p>Uma saborosa cachaça artesanal de jambu misturada em diferentes sabores.<br /><br /></p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+
     <section id="about-us">
-      <h2>Sobre nós</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus beatae nihil voluptatibus quod incidunt! Nisi repudiandae dicta, autem voluptas rem eum modi temporibus, voluptatem, ea neque impedit vel rerum deleniti consequatur alias iure laborum laudantium dolores quo. Esse in dicta ea ut, repudiandae aliquid saepe nisi. Quae, hic voluptatem.</p>
+      <div>
+        <h2>Sobre nós</h2>
+        <p>
+          Fundado em 1982 por mãe e filha com uma paixão em comum, a culinária nortista.
+          "A comida é para trazer felicidade e unir famílias e pessoas" esse é o nosso
+          lema desde que a mãe falou que esse era o objetivo do restaurante, levamos todo
+          o sabor, perfume e cores Amazônicas para sua visão, paladar e olfato, não existe
+          experiência mais inesquecível do que aquela que vivenciamos comendo comida boa
+          com pessoas que amamos.
+        </p>
+      </div>
     </section>
-    
+
     <section id="nutritional-info">
       <h2>À la carte</h2>
       <table>
@@ -98,7 +177,7 @@
             <th>Gordura</th>
           </tr>
         </thead>
-        
+
         <tbody>
           <tr>
             <th>Bolinho de Pirarucu</th>
@@ -107,7 +186,7 @@
             <td>16</td>
             <td>3.8</td>
           </tr>
-          
+
           <tr>
             <th>Tacacá</th>
             <td>25</td>
@@ -115,7 +194,7 @@
             <td>13<sub>Prote</sub></td>
             <td>1.9<sub>Trans</sub></td>
           </tr>
-          
+
           <tr>
             <th>Caldeirada de tambaqui</th>
             <td>185</td>
@@ -123,7 +202,7 @@
             <td>26</td>
             <td>0.7</td>
           </tr>
-          
+
           <tr>
             <th>Tambaqui assado na brasa</th>
             <td>120</td>
@@ -133,7 +212,7 @@
           </tr>
         </tbody>
       </table>
-      
+
       <h2>Sobremesas</h2>
       <table>
         <thead>
@@ -145,7 +224,7 @@
             <th>Gordura</th>
           </tr>
         </thead>
-        
+
         <tbody>
           <tr>
             <th>Sorvete de Tucumã</th>
@@ -154,7 +233,7 @@
             <td>2.8</td>
             <td>2.1</td>
           </tr>
-          
+
           <tr>
             <th>Mousse de Cupuaçu</th>
             <td>265</td>
@@ -165,35 +244,110 @@
         </tbody>
       </table>     
     </section>
-    
+
     <section id="sign-in">
       <h2>Cadastre-se</h2>
       <form action="#">
         <label for="name">Nome: </label>
         <input type="text" id="name" name="name">
-        
+
         <label for="email">E-mail: </label>
         <input type="email" id="email" name="email">
-        
+
         <label for="password">Senha: </label>
         <input type="password" id="password" name="password">
       </form>
     </section>
     
   </main>
-  
+
   <footer>
-    <img src="" alt="Logo">
-    <p>&copy; Banzeiro 2024 - Todos os direitos reservados.</p>
-    
-    <nav>
-      <ul>
-        <li><a href="#">Termos de Serviço</a></li>
-        <li><a href="#">Política de Privacidade</a></li>
-        <li><a href="#">Localização</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="align">
+      <section>
+        <h2>Colaboradores</h2>
+        <figure>
+          <div>
+            <img class="photo" src="https://github.com/arthurcaaldas.png" alt="Imagem do integrante do grupo">
+          </div>
+          <div>
+            <figcaption>Arthur Caldas</figcaption>
+            <a href="https://www.linkedin.com/in/arthurcaaldas/"><img src="./src/assets/icons/linkedin-logo.svg"
+                alt="linkedIn"></a>
+            <a href="ttps://github.com/arthurcaaldas"><img src="./src/assets/icons/github-logo.svg" alt="GitHub"></a>
+          </div>
+        </figure>
+
+        <figure>
+          <div>
+            <img class="photo" src="https://github.com/brunopavese.png" alt="Imagem do integrante do grupo">
+          </div>
+          <div>
+            <figcaption>Bruno Pavese</figcaption>
+            <a href="https://www.linkedin.com/in/brunopavese/"><img src="./src/assets/icons/linkedin-logo.svg"
+                alt="linkedIn"></a>
+            <a href="https://github.com/brunopavese"><img src="./src/assets/icons/github-logo.svg" alt="GitHub"></a>
+          </div>
+        </figure>
+
+        <figure>
+          <div>
+            <img class="photo" src="https://github.com/tarcillabarbosa.png" alt="Imagem do integrante do grupo">
+          </div>
+          <div>
+            <figcaption>Tarcilla Barbosa</figcaption>
+            <a href="https://www.linkedin.com/in/tarcillabarbosa/"><img src="./src/assets/icons/linkedin-logo.svg"
+                alt="linkedIn"></a>
+            <a href="https://github.com/tarcillabarbosa"><img src="./src/assets/icons/github-logo.svg" alt="GitHub"></a>
+          </div>
+        </figure>
+
+        <figure>
+          <div>
+            <img class="photo" src="https://github.com/thais-goncalves.png" alt="Imagem do integrante do grupo">
+          </div>
+          <div>
+            <figcaption>Thaís Gonçalves</figcaption>
+            <a href="https://www.linkedin.com/in/thaiscgoncalves/"><img src="./src/assets/icons/linkedin-logo.svg"
+                alt="linkedIn"></a>
+            <a href="https://github.com/thais-goncalves"><img src="./src/assets/icons/github-logo.svg" alt="GitHub"></a>
+          </div>
+        </figure>
+      </section>
+
+      <section>
+        <div class="contact">
+          <h2>Contato</h2>
+          <p><span>Telefone:</span> (92) 12345-6789</p>
+          <p><span>E-mail:</span> banzeiro@email.com</p>
+        </div>
+
+        <div class="social-media">
+          <h2>Redes Sociais</h2>
+          <div>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img
+                src="./src/assets/icons/icons8-facebook.svg" alt="Icon facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img
+                src="./src/assets/icons/icons8-instagram.svg" alt="Icon instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img
+                src="/src/assets/icons/icons8-twitter.svg" alt="Icon twitter"></a>
+          </div>
+        </div>
+
+        <div class="address">
+          <h2>Endereço</h2>
+          <a href="https://www.google.com/maps/place/Restaurante+Banzeiro+Manaus/@-3.1118127,-60.0170059,19z/data=!4m6!3m5!1s0x926c055aec0d372b:0xbd325e8db1549343!8m2!3d-3.1123028!4d-60.0169254!16s%2Fg%2F1twy_mhq?entry=ttu"
+            target="_blank"><img src="./src/assets/icons/map-pin-line.svg" alt=""></a>
+          <p>Rua Rio Negro, 123</p>
+          <p>Manaus, Amazonas</p>
+          <p><span>CEP: 12345-678</span></p>
+        </div>
+      </section>
+    </div>
+
+    <section class="rights">
+      <img src="./src/assets/banzeiro-logotipo-branco.svg" alt="imagem de localização">
+      <h6>&copy; Banzeiro 2024 - Todos os direitos reservados.</h6>
+    </section>
   </footer>
 </body>
 
