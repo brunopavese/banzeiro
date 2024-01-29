@@ -1,6 +1,6 @@
 #sign-in {
-    background-color: #f2b02f;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--color-secondary);
+    box-shadow: var(--box-shadow);
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -8,7 +8,7 @@
 }
 
 #sign-in h2 {
-    color: #387b3d;
+    color: var(--color-primary);
     text-align: center;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #sign-in label {
-    color: #387b3d;
+    color: var(--color-primary);
     display: block;
     margin-bottom: 8px;
 }
@@ -32,11 +32,11 @@
 }
 
 #sign-in input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
     cursor: pointer;
 }
 
 #sign-in input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: var(--color-primary);
 }

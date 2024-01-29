@@ -4,6 +4,7 @@
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
+  margin: 3rem 0;
 }
 
 #description strong {
@@ -19,7 +20,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -27,6 +28,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 6rem;
+    margin: 5rem 0;
   }
 
   #description div {
