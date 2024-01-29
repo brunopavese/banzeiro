@@ -11,11 +11,17 @@ footer h2 {
 }
 
 footer figure {
-  border: 1px solid var(--color-secondary);
   border-radius: .625rem;
   margin: .625rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+footer .align-footer {
+  width: 50%;
+  display: flex;
+  justify-content: start;
   align-items: center;
 }
 
@@ -30,7 +36,7 @@ footer .photo {
 }
 
 footer figure a {
-  margin-right: .313rem;
+  margin-right: .125rem;
 }
 
 footer .contact,
@@ -76,10 +82,16 @@ footer .rights img {
   }
   
   footer figure {
-    border: 1px solid var(--color-secondary);
-    padding-left: 27%;
     display: flex;
-    justify-content: start;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .align-footer {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
   }
   
   .social-media img {
@@ -89,6 +101,7 @@ footer .rights img {
   footer .rights {
     font-size: 1rem;
   }
+  
   footer .photo {
     border-radius: 50%;
     width: 5rem;
